@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LayoutsModule } from "../layouts";
-import { SharedModule } from "../shared";
+import { LayoutsModule } from "./layouts/layouts.module";
+import { SharedModule } from "./shared";
 
 @NgModule({
   declarations: [
