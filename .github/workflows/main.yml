@@ -21,11 +21,11 @@ jobs:
       run: |
          npm install -g @angular/cli
          npm install
-         ng build --prod --base-href="/agung-sari-baja-web/"
+         ng build --prod --base-href="/angular-gh-pages/"
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master
         BRANCH: gh-pages
-        FOLDER: dist/agung-sari-baja-web
+        FOLDER: dist/angular-gh-pages
