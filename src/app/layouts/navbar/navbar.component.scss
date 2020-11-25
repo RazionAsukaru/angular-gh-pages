@@ -1,4 +1,4 @@
-@import 'navbar-animation';
+@import "navbar-animation";
 
 .main-header {
     position: fixed;
@@ -42,6 +42,15 @@
             a:hover {
                 background: rgba(255, 255, 255, 0.2);
             }
+
+            cursor: pointer;
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
         }
     }
 
@@ -63,7 +72,7 @@
 
             &::before,
             &::after {
-                content: '';
+                content: "";
                 position: absolute;
                 height: 100%;
                 width: 100%;
@@ -109,7 +118,6 @@
             }
         }
     }
-
 }
 
 @media screen and(max-width: 767px) {
@@ -169,9 +177,7 @@
             .nav-link {
                 opacity: 1;
                 transform: translateX(0);
-                transition: 
-                    opacity 0.4s ease-in-out,
-                    transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                transition: opacity 0.4s ease-in-out, transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
                 &:nth-of-type(1) {
                     transition-delay: 0.7s;
                 }

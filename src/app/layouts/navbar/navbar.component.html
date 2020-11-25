@@ -1,6 +1,6 @@
 <header [class.scrolled]="isScrolled" class="main-header" >
     <div class="logo">
-        <a href="#">LOGO</a>
+        <a (click)="scrollTo('home')">LOGO</a>
     </div>
 
     <input type="checkbox" class="menu-btn" name="menu-btn" id="menu-btn">
@@ -10,16 +10,16 @@
 
     <ul class="nav-links">
         <li class="nav-link">
-            <a href="#">About</a>
+            <a (click)="scrollTo('about')">About</a>
         </li>
         <li class="nav-link">
-            <a href="#">Portofolio</a>
+            <a (click)="scrollTo('portofolio')">Portofolio</a>
         </li>
         <li class="nav-link">
-            <a href="#">Services</a>
+            <a (click)="scrollTo('services')">Services</a>
         </li>
         <li class="nav-link">
-            <a href="#">Contact</a>
+            <a (click)="scrollTo('contact')">Contact</a>
         </li>
     </ul>
 </header> 

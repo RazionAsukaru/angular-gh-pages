@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { RouterModule } from '@angular/router';
+import { StoreModule } from '@ngrx/store';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
     FontAwesomeModule,
     NgxSpinnerModule,
     RouterModule,
+    StoreModule
   ],
   exports: [
     CommonModule,
@@ -22,6 +24,7 @@ import { RouterModule } from '@angular/router';
     FontAwesomeModule,
     NgxSpinnerModule,
     RouterModule,
+    StoreModule
   ]
 })
 export class SharedModule {

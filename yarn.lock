@@ -1137,6 +1137,13 @@
   dependencies:
     tslib "^2.0.0"
 
+"@ngrx/store@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-10.0.1.tgz#74c3bb383cc507f927ba63710cc6622f2f2859db"
+  integrity sha512-ZbPvhp/tRYnS3jZ28mDOX2LH3jfySXT0uv8ffIboM/o9QxBGHpAJyBct2zkpy4duYBc3i/sIbRn+CEpAjLXjHw==
+  dependencies:
+    tslib "^2.0.0"
+
 "@ngtools/webpack@10.0.8":
   version "10.0.8"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-10.0.8.tgz#c818415a150ff6d578b25311b97859220b9d5a10"
