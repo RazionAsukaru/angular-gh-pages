@@ -24,6 +24,8 @@ jobs:
          ng build --prod --base-href="/angular-gh-pages/"
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
+      with:
+          folder: dist/angular-gh-pages
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master
