@@ -19,7 +19,7 @@ jobs:
         node-version: '12.x'
     - name: Build
       run: |
-         npm install -g @angular/cli
+         npm install -g @angular/cli@10.0.8
          npm install
          ng build --prod --base-href="/angular-gh-pages/"
     - name: Deploy
